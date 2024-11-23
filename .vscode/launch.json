@@ -1,0 +1,45 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "temp",
+      "request": "launch",
+      "mainClass": "my.temp",
+      "projectName": "Myself build_486b967b"
+    },
+    {
+      "type": "java",
+      "name": "tic_tac_toe",
+      "request": "launch",
+      "mainClass": "my.tic_tac_toe",
+      "projectName": "Myself build_486b967b"
+    },
+    {
+      "type": "java",
+      "name": "RPS",
+      "request": "launch",
+      "mainClass": "my.RPS",
+      "projectName": "Myself build_486b967b"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/C_Learning",
+      "program": "c:/C_Learning/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
