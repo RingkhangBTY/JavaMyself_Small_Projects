@@ -1,0 +1,2 @@
+- This repo is for my learning with building some biginer level small projects.
+- Plz do contribute if you are intrested in my small projects or just let me know i need to improve. 
