@@ -5,5 +5,6 @@ public class Application_1 {
 
         GuessTheWords game = new GuessTheWords();
         game.start();
+        game.end();
     }
 }

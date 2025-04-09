@@ -1,4 +1,4 @@
-package stu_data_management;
+package MY_WORKS.stu_data_management;
 
 public class main {
     public static void main(String[] args) {
