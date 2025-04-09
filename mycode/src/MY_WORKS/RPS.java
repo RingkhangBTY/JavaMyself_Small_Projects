@@ -1,4 +1,4 @@
-package my;
+package MY_WORKS;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -28,8 +28,7 @@ public class RPS {
                 System.out.println("Computer choice is:" + rn);
             }
             sc.nextLine();
-            System.out.println("To continue playing press any k1" +
-                    "ey and To exit type 'exit'.");
+            System.out.println("To continue playing press any key and To exit type 'exit'.");
             String con=sc.nextLine();
             if(con.equals("exit")){
                 choice=false;

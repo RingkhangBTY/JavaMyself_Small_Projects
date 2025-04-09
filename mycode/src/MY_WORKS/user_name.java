@@ -1,5 +1,5 @@
 // Gmail = ringkhangb913@gmail.com then user_Name= ringkhangb913
-package my;
+package MY_WORKS;
 import java.util.Scanner;
 
 public class user_name{
@@ -37,14 +37,14 @@ public class user_name{
 
     public static String print_user_name(String mail){
 
-        String UName="";
+        StringBuilder UName= new StringBuilder();
         for(int i=0; i<mail.length(); i++){
             if(mail.charAt(i)=='@'){
                 break;
             }else{
-                UName+=mail.charAt(i);
+                UName.append(mail.charAt(i));
             }
         }
-        return UName;
+        return UName.toString();
     }                                                                                           
 }

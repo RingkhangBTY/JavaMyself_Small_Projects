@@ -1,4 +1,4 @@
-package my;
+package MY_WORKS;
 import java.util.Scanner;
 
 public class temp {
