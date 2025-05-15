@@ -1,4 +1,4 @@
-package MY_WORKS;
+package MY_WORKS.EtcProjects;
 import java.util.*;
 public class Q1 {
 

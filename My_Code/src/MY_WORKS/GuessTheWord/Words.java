@@ -10,10 +10,17 @@ public class Words {
     private String selectedWord;
     private Random random = new Random();
     private char[] letters;
+    private static String rightWord;
+
+
+    public static String getWord(){
+        return rightWord;
+    }
 
     public Words(){
         selectedWord = randomWords[random.nextInt(randomWords.length)];
         letters = new char[selectedWord.length()];
+        rightWord = selectedWord;
     }
 
 

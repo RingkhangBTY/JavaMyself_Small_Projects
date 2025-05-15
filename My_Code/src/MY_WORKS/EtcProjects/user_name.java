@@ -1,5 +1,5 @@
 // Gmail = ringkhangb913@gmail.com then user_Name= ringkhangb913
-package MY_WORKS;
+package MY_WORKS.EtcProjects;
 import java.util.Scanner;
 
 public class user_name{

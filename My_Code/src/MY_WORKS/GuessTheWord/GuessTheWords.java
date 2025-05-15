@@ -1,5 +1,6 @@
 package MY_WORKS.GuessTheWord;
 import java.util.Scanner;
+import static MY_WORKS.GuessTheWord.Words.getWord;
 
 public class GuessTheWords {
     private Scanner sc = new Scanner(System.in);
@@ -23,25 +24,30 @@ public class GuessTheWords {
         if (isGuessRight){
             if (randomWords.isGuess()){
                 System.out.println("Congrats, you won! ");
-                System.out.println("The word is: "+randomWords);
-                play = false;
+                System.out.println("The word is: "+getWord());
+                play = true;
             }
         }else {
             triesLeft --;
-
             System.out.println(triesLeft+" tries left!  ");
 
             if (triesLeft==0){
                 System.out.println("game Over! ");
+                System.out.println("The word is: "+getWord());
                 play = false;
             }
         }
     }
 
+//    private void playMore(){
+//        System.out.println("Want to play more? (Y/N)");
+//        String userRes = sc.nextLine();
+//        play = userRes.equalsIgnoreCase("y");
+//    }
+
     private void getInput() {
         System.out.println("Enter a word to guess the word.");
         String userGuess = sc.nextLine();
-//        randomWords.guess(userGuess.charAt(0));
         lastRound = userGuess.charAt(0);
     }
 
